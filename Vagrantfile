@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
   config.vm.box_version = "2009.0.2012"
   config.vbguest.auto_update = false
 
-  # config.vm.synced_folder "data/", "c:\Users\vagrant\data"
+  config.vm.synced_folder "data/", "/vagrant"
 
   config.vm.provider "virtualbox" do |v|
 

@@ -12,9 +12,10 @@ start windows:
 vagrant up
 ```
 
-sleep windows:
+sleep and resume:
 ```bash
-vagrant halt
+vagrant suspend
+vagrant resume
 ```
 
 delete windows:
