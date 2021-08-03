@@ -3,7 +3,7 @@
 Download windows 10 vagrant box:
 ```bash
 vagrant box add gusztavvargadr/windows-10 \
-  --box-version=2009.0.2012  \
+  --box-version=2101.0.2106  \
   --provider=virtualbox
 ```
 
