@@ -7,7 +7,7 @@ wget https://github.com/WoeUSB/WoeUSB/releases/download/v5.2.4/woeusb-5.2.4.bash
 
 Install dependant pacakages:
 ```bash
-sudo apt install wimtools
+sudo apt install wimtools -y
 ```
 
 Create bootable USB fron linux:
